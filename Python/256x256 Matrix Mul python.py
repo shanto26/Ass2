@@ -2,7 +2,7 @@ import numpy as np
 from datetime import datetime
 start_time = datetime.now()
 
-x = np.random.randint(10, size=(265,256))
+x = np.random.randint(10, size=(256,256))
 y = np.random.randint(10, size=(256,256))
 
 r = [[0 for x in range(256)] for y in range(256)]
